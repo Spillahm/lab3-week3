@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conference regestration form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="conference-style.css">
+</head>
+<body>
+<div class="jumbotron">
+    <h1>Conference regestration form</h1>
+</div>
+<div class="color-md-6">
+    <form class="mx-4">
+        <div>
+            <label for="user-name"> Enter Your name:</label>
+            <input id="user-name" class="form-control" type="text"> <br>
+            <label for="password"> Please tpype in your password</label>
+            <input id="password" class="form-control" type="number"> <br>
+            <label for="Email-address">Enter your Email:</label>
+            <input id="Email-address" class="form-control" type="email"><br>
+            <label for="birth-date">Enter date of birth</label>
+            <input id="birth-date" class="form-control" type="number"><br>
+            <p>All ateendees get free tshirt. What is your size?</p><br>
+
+            <select>
+                <option>small</option>
+                <option>medium</option>
+                <option>large</option>
+            </select> <br>
+
+            <label for="requests?">Any special requests?</label><br><textarea rows="7" columns="70" id="requests" class="form-control" required></textarea><br>
+        </div>
+
+         <p>Do you want to receive email updates??</p><br>
+
+        <div class="form-check">
+
+            <input name="receive" id="yes" class="form-check-input" type="radio"> <label for="Yes" class="form-check-label">Yes </label>
+        </div>
+        <div>
+            <input name="receive"  id="no" class="form-check-input" type="radio"> <label for="No" class="form-check-label">No</label> <br>
+        </div>
+
+        <p>Suitable class session</p>
+        <div class="form-check">
+        <input name="fav-time" id="morning" class="form-check-input" type="radio" checked=><label for="morning" class="form-check-label">morning</label>
+        </div>
+        <div>
+        <input name="fav-time" id="afternoon" class="form-check-input" type="radio"> <label for="afternoon" class="form-check-label">afternoon</label>
+        </div>
+        <br>
+
+
+        <input type="submit" class="btn btn-dark mt-5">
+
+
+
+</body>
+</html>

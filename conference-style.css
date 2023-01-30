@@ -1,0 +1,12 @@
+body{
+    background-color: dodgerblue;
+    font-style:griffy;
+}
+.jumbotron {
+    background-color: #40E0D0;
+    font-style: italic;
+}
+
+grad{
+    background-image: -ms-linear-gradient(red, yellow);
+}

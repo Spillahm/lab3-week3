@@ -1,0 +1,16 @@
+#real-alert {
+    color:red;
+    background-color: black;
+    font-size: larger;
+    font-style: revert;
+}
+
+#test-only {
+    color:powderblue;
+    background-color: aqua;
+    font-size: medium;
+    font-style: italic;
+}
+.missile-link{
+    display: inline-block;
+}
